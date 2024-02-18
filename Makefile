@@ -1,4 +1,12 @@
-SRCS =
+SRCS = src/ft_decimal_itoa.c \
+      src/ft_itoa_base.c \
+      src/ft_printchar.c \
+      src/ft_printf.c \
+      src/ft_printhex.c \
+      src/ft_printint.c \
+      src/ft_printpercent.c \
+      src/ft_printptr.c \
+      src/ft_printstr.c \
 
 OBJS = ${SRCS:.c=.o}
 
