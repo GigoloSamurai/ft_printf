@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printchar.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: yasadki <yasadki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/15 15:55:20 by marvin            #+#    #+#             */
-/*   Updated: 2024/01/15 15:55:20 by marvin           ###   ########.fr       */
+/*   Created: 2024/02/19 19:08:35 by yasadki           #+#    #+#             */
+/*   Updated: 2024/02/19 19:41:08 by yasadki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/ft_printf.h"
 
-int ft_printchar(int c)
+int	ft_printchar(int c)
 {
-    ft_putchar_fd(c, 1);
-    return (1);
+	ft_putchar_fd(c, 1);
+	return (1);
 }
